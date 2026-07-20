@@ -71,7 +71,7 @@ YES
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-20T07:04:19.725Z  
+**Submitted:** 2026-07-20T07:05:33.245Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -93,7 +93,7 @@ int main() {
             else counter=0;
             max_counter=max(max_counter,counter);
         }
-        if(max_counter<=4) cout<<"YES"<<endl;
+        if(max_counter<=3) cout<<"YES"<<endl;
         else cout<<"NO"<<endl;
     }
 }

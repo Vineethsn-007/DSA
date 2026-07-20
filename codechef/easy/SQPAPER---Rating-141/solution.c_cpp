@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int x,y,area;
+    cin>>x>>y;
+    if(x<y) area=x*x;
+    else area=y*y;
+    cout<<area;
+}

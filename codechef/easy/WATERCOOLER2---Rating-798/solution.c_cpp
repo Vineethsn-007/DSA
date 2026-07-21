@@ -9,8 +9,7 @@ int main() {
         int x,y;
         cin>>x>>y;
         int counter=0;
-        if(x>=y) counter=0;
-        else{
+        if(x<y){
             while(x<y){
                 y=y-x;
                 counter+=1;

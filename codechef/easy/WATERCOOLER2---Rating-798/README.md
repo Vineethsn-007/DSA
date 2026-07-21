@@ -51,7 +51,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-21T16:31:05.178Z  
+**Submitted:** 2026-07-21T16:44:57.984Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -64,12 +64,8 @@ int main() {
     while(t--){
         int x,y;
         cin>>x>>y;
-        int counter=0;
-        while(x<y){
-            y=y-x;
-            counter+=1;
-        }
-        cout<<counter<<endl;
+        if(x>=y) cout<<"0"<<endl;
+        else cout<<y/x<<endl;
     }
 }
 

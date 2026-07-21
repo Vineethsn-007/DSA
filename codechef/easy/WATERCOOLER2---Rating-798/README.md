@@ -51,7 +51,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-21T16:44:57.984Z  
+**Submitted:** 2026-07-21T16:46:09.651Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -65,7 +65,7 @@ int main() {
         int x,y;
         cin>>x>>y;
         if(x>=y) cout<<"0"<<endl;
-        else cout<<y/x<<endl;
+        else cout<<(y-1)/x<<endl;
     }
 }
 

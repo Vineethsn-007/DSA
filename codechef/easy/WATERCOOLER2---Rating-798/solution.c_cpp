@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int t;
+    cin>>t;
+    while(t--){
+        int x,y;
+        cin>>x>>y;
+        int counter=0;
+        if(x>=y) counter=0;
+        else{
+            while(x<y){
+                y=y-x;
+                counter+=1;
+            }
+        }
+        std::cout<<counter<<std::endl;
+    }
+}

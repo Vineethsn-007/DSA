@@ -8,11 +8,7 @@ int main() {
     while(t--){
         int x,y;
         cin>>x>>y;
-        int counter=0;
-        while(x<y){
-            y=y-x;
-            counter+=1;
-        }
-        cout<<counter<<endl;
+        if(x>=y) cout<<"0"<<endl;
+        else cout<<y/x<<endl;
     }
 }

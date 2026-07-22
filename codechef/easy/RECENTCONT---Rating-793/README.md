@@ -70,7 +70,7 @@ START38 LTIME108 LTIME108 LTIME108 START38 LTIME108
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-22T08:36:30.688Z  
+**Submitted:** 2026-07-22T08:36:51.791Z  
 
 ```c_cpp
 #include <bits/stdc++.h>

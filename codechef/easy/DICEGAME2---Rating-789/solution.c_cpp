@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int t;
+    cin>>t;
+    while(t--){
+        int a1,a2,a3,b1,b2,b3;
+        cin>>a1>>a2>>a3>>b1>>b2>>b3;
+        int aliceScore=(a1+a2+a3)-min({a1,a2,a3});
+        int bobScore=(b1+b2+b3)-min({b1,b2,b3});
+        if(aliceScore>bobScore) cout<<"Alice\n";
+        else if(bobScore>aliceScore) cout<<"Bob\n";
+        else cout<<"Tie\n";
+    }
+}

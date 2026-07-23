@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int t;
+    cin>>t;
+    while(t--){
+        int x;
+        cin>>x;
+        string res;
+        cin>>res;
+        int carlsen=0,chef=0;
+        for(int i=0;i<14;i++){
+            if (res[i]=='C') carlsen+=2;
+            else if (res[i]=='N') chef+=2;
+            else if (res[i]=='D'){
+                chef+=1;
+                carlsen+=1;
+            }
+        }
+        if(carlsen>chef) cout<<60*x<<endl;
+        else if (carlsen<chef) cout<<40*x<<endl;
+        else cout<<55*x<<endl;
+    }
+}
+ 

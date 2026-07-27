@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    string one = "Coding";
+    string two = "Chaf";
+    two[2] = 'e';
+    cout << one + " " + two;
+
+    return 0;
+}

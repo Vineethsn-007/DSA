@@ -47,7 +47,7 @@ F
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-27T17:46:52.467Z  
+**Submitted:** 2026-07-27T17:47:14.894Z  
 
 ```c_cpp
  #include <iostream>
@@ -59,7 +59,7 @@ int main() {
     cin>>marks;
     if(marks>90) cout<<"A";
     else if(marks>70) cout<<"B";
-    else if(marks>40) cout<<"C";
+    else if(marks>=40) cout<<"C";
     else cout<<"F";
 }
 

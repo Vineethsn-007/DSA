@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int calculateArea(int length, int width) {
+    // Complete this function
+    int area=length*width;
+    return area;
+}
+
+int main() {
+    int length, width;
+    // take length and width as input
+    cin>>length>>width;
+
+    int area = calculateArea(length, width);
+    cout << area;
+    
+    return 0;
+}

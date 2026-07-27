@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    // Declare and initialize temperature variable with 25.5
+    float temperature=25.5;
+    
+    cout << "Celsius - " << temperature<< endl;  // Print the temperature in Celsius 
+    cout << "Kelvin - " << temperature + 273; // Print the temperature in Kelvin 
+
+    return 0;
+}

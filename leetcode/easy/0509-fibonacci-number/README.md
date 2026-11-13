@@ -54,16 +54,16 @@ Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 ## Solution
 
 **Language:** C++  
-**Runtime:** 12 ms (beats 33.58%)  
-**Memory:** 7.6 MB (beats 93.25%)  
-**Submitted:** 2026-11-13T07:30:34.575Z  
+**Runtime:** 0 ms  
+**Memory:** 7.7 MB  
+**Submitted:** 2026-11-13T07:30:47.510Z  
 
 ```cpp
 class Solution {
 public:
     int fib(int n) {
         if(n==0 || n==1) return n;
-        else return fib(n-1)+fib(n-2);
+        return fib(n-1)+fib(n-2);
     }
 };
 ```

@@ -16,7 +16,7 @@ public:
                 count+=map[val];
             }
             if(map.find(prefixSum[j])==map.end()){
-                map[prefixSum[j]]==0;
+                map[prefixSum[j]]=0;
             }
             map[prefixSum[j]]++;
         }

@@ -39,9 +39,9 @@ Output: 2
 ## Solution
 
 **Language:** C++  
-**Runtime:** 44 ms (beats 54.41%)  
-**Memory:** 46.4 MB (beats 34.47%)  
-**Submitted:** 2026-11-13T07:13:00.770Z  
+**Runtime:** 42 ms (beats 64.38%)  
+**Memory:** 46.7 MB (beats 33.82%)  
+**Submitted:** 2026-11-13T07:16:17.642Z  
 
 ```cpp
 class Solution {
@@ -62,7 +62,7 @@ public:
                 count+=map[val];
             }
             if(map.find(prefixSum[j])==map.end()){
-                map[prefixSum[j]]==0;
+                map[prefixSum[j]]=0;
             }
             map[prefixSum[j]]++;
         }
